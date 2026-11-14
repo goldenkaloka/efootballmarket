@@ -2,7 +2,7 @@ import { createClient } from '@supabase/supabase-js'
 
 export const supabase = createClient(import.meta.env.VITE_SUPABASE_URL, import.meta.env.VITE_SUPABASE_ANON_KEY)
 
-export const LISTING_FEE = 2000 // TSh. Keep in sync with the LISTING_FEE secret of the create-payment function.
+export const LISTING_FEE = 500 // TSh. SonicPesa listing fee.
 export const NETWORKS = ['M-Pesa', 'Airtel Money', 'Mixx', 'HaloPesa']
 export const FORMATIONS = ['4-3-3', '4-2-3-1', '4-4-2', '3-5-2', '4-1-4-1', '3-4-3', '5-3-2', '4-5-1']
 
